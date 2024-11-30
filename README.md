@@ -69,6 +69,8 @@ TODO - KT2
 9. Prekoračenja praga -- prag "nezdravo" :(
 10. Poređenje kategorija među zemljama
 
+11. 3,4 upita analiticki window funckija, bar 4 upita upita srednje slozenosti i bar 4 velike slozenosti, potencijalna izmena na semnaticki bogatiji skup podataka iste tematike
+
 ### Streaming upiti
 
 1. Koliki je trenutni AQI u Novom Sadu(Liman) i kako se poredi sa zdravim granicama?
@@ -76,6 +78,8 @@ TODO - KT2
 3. Koji zagađivač je trenutno dominantni uzročnik lošeg kvaliteta vazduha u Novom Sadu(Liman)?
 4. Kakva je prognoza kvaliteta vazduha za naredna 24 sata i da li će se nivoi zagađivača poput PM2.5 ili ozona povećavati ili smanjivati?
 5. Kako se trenutni nivoi ugljen-monoksida (CO), azot-dioksida (NO2) i ozona (O3) porede sa istorijskim nivoima ili bezbednosnim smernicama?
+
+6. Neki upiti se moraju instant racunati neki odlozeno i logicka veza sa prethodnim skupom
 
 ### Dodatno
 - AQI - Air Quality Index
