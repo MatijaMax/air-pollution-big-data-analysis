@@ -16,9 +16,27 @@
 
 - Skupovi podataka:
     - Batch:
-        - [Global air pollution] https://www.kaggle.com/datasets/dilwong/flightprices](https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset
+        - [Global air pollution] [https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset](https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset)
     - Streaming:
         - [Liman air pollution] https://aqicn.org/data-platform/api/H9262/
+
+
+
+## Struktura podataka - key data
+
+GLOBAL DATA:
+- ﻿Country, City, 
+- AQI Value, AQI Category,
+- CO AQI Value, CO AQI Category, Ozone AQI Value, Ozone AQI Category, NO2 AQI Value, NO2 AQI Category, PM2.5 AQI Value, PM2.5 AQI Category
+
+SENSOR DATA:
+- dominentpol
+- IAQI
+- forecast: PM2.5, PM10, O3, UVI
+
+
+## Struktura repozitorijuma:
+    - `TODO` - KT 2
 
 
 ## Struktura projekta
