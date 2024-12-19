@@ -27,6 +27,7 @@
 BATCH DATA:
 - ﻿The four pollutants (NO2, O3, SO2 and O3) each has 5 specific columns: Units, Max, Min, Mean, AQI
 - State, County, City, Monitoring Site
+- Date
 
 STREAM DATA:
 - Wind Speed (U, V)
