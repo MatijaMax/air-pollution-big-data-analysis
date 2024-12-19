@@ -7,32 +7,32 @@
 - Tema: Analiza podataka o kvalitetu vazduha
 - Opis projekta:
     - Cilj projekta je analiza podataka o kvalitetu vazduha u 2 režima obrade. 
-    - Za batch obradu koriste se istorijski podaci o globalnom kvalitetu vazduha. (1.63 MB)
+    - Za batch obradu koriste se istorijski podaci o kvalitetu vazduha u SAD. 
         - Ukupno 10 upita
-    - Za streaming obradu podataka koriste se podaci sa senzora u Novom Sadu, Liman. Ako podaci sa domaćih senzora nisu adekvatni, može se kao primer uzeti neki drugi grad.
+    - Za streaming obradu podataka koriste se istorijski podaci sa senzora u Atini.
         - Ukupno 5 upita 
 
 ## Korišćeni podaci
 
 - Skupovi podataka:
     - Batch:
-        - [Global air pollution] [https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset](https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset)
+        - [USA air pollution] https://www.kaggle.com/datasets/mexwell/us-air-pollution
     - Streaming:
-        - [Liman air pollution] https://aqicn.org/data-platform/api/H9262/
+        - [Athens air pollution] https://www.kaggle.com/datasets/yekenot/air-quality-monitoring-in-european-cities
 
 
 
 ## Struktura podataka - key data
 
-GLOBAL DATA:
-- ﻿Country, City, 
-- AQI Value, AQI Category,
-- CO AQI Value, CO AQI Category, Ozone AQI Value, Ozone AQI Category, NO2 AQI Value, NO2 AQI Category, PM2.5 AQI Value, PM2.5 AQI Category
+BATCH DATA:
+- ﻿1 
+- 2
+- 3
 
-SENSOR DATA:
-- dominentpol
-- IAQI
-- forecast: PM2.5, PM10, O3, UVI
+STREAM DATA:
+- 1
+- 2
+- 3
 
 
 ## Struktura repozitorijuma:
@@ -84,5 +84,3 @@ TODO - KT2
 ### Dodatno
 - AQI - Air Quality Index
 - PM - Particulate Matter
- 
-
